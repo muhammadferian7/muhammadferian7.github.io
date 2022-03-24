@@ -12,7 +12,7 @@
 
 .card-body {
     background-color: #fff;
-    margin-top: -150px;
+    margin-top: -190px;
     border-radius: 10px;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .img-profile {
-    width: 25%;
+    width: 35%;
 }
 
 .contact-section a {
@@ -34,4 +34,93 @@
 
 .education-section p {
     margin-bottom: 0;
+}
+
+.nav-link {
+    color: #979797;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link.active {
+    color: #000;
+}
+
+.experience-section,
+.education-section,
+.hobby-section {
+    margin-left: 10px;
+}
+
+.content {
+    background-color: #F2F2F2;
+    padding-bottom: 20px;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.border-radius {
+    border-radius: 10px;
+}
+
+.margin-5 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.img-1 {
+    width: 70%;
+    margin-left: 20px;
+}
+
+.img-2 {
+    width: 130%;
+    margin-left: -140px;
+    margin-top: 20px;
+}
+
+.img-3 {
+    width: 130%;
+    margin-left: -140px;
+    margin-top: 70px;
+}
+
+.img-4 {
+    width: 92%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+/* mobile */
+
+@media screen and (max-width: 375px) {
+    .img-profile {
+        width: 35%;
+        height: 60%;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .col-md-8 {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .img-2 {
+        width: 90%;
+        margin-top: -5px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .img-3 {
+        width: 90%;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
 }
